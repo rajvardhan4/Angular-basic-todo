@@ -1,0 +1,38 @@
+.footer-container {
+    background-color: #1a1a1a; /* Dark background */
+    color: #ffffff; /* White text */
+    padding: 20px 0; /* Padding for top and bottom */
+    text-align: center; /* Center the text */
+  }
+  
+  .footer-container .container {
+    max-width: 1200px; /* Responsive width */
+    margin: 0 auto; /* Center the content */
+  }
+  
+  .footer-container p {
+    font-size: 14px; /* Small text for copyright */
+    margin: 0;
+  }
+  
+  .footer-container .links {
+    margin: 10px 0;
+  }
+  
+  .footer-container .footer-link {
+    color: #a0a0a0; /* Gray link color */
+    text-decoration: none; /* No underline */
+    margin: 0 10px;
+    transition: color 0.3s; /* Smooth transition */
+  }
+  
+  .footer-container .footer-link:hover {
+    color: #ffffff; /* White on hover */
+  }
+  
+  .footer-container .social-icons a img {
+    width: 24px; /* Icon size */
+    height: 24px;
+    margin: 0 10px;
+  }
+  
